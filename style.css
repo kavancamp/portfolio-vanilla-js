@@ -149,7 +149,7 @@ body {
   background-color: rgb(205, 122, 0);
   border-radius: 50%;
 }
-.project-desciption {
+.project-description {
   padding: 120px 60px;
 }
 
@@ -163,7 +163,7 @@ body {
     font-size: 44px;
   }
 
-  .project-desciption {
+  .project-description {
     text-align: center;
   }
   .profile-role-tagline {
