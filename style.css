@@ -26,39 +26,111 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+nav {
+  background-image: url("./images/background.jpeg");
+  padding: 0;
+  height: 80px;
+}
 
 body {
   margin: 0 auto;
   max-width: 100%;
-}
 
-h1,
-h2,
-h3 {
+  min-width: 100%;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
   text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
 }
-
-h1 {
-  font-size: 86px;
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: rgb(14, 130, 232);
 }
-
-h2 {
-  font-size: 48px;
-  margin: 10px auto;
-}
-
-h3 {
+.profile-details-name {
   font-size: 24px;
-  opacity: 0.7;
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
 }
 
-p {
-  background: var(--secondary-color);
-  padding: 20px;
+.primary-text {
+  color: black;
+}
+.highlighted-text {
+  color: gray;
+  font-size: 25px;
+  text-shadow: rgb(205, 122, 0) 0px 10px 10px;
+}
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+.primary-btn {
+  background-color: #27445c;
+  margin: 20px;
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+.profile-options .primary-btn:hover {
+  border-color: rgb(205, 122, 0);
+}
+.profile-options .highlighted-btn {
+  background-color: rgb(205, 122, 0);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+.profile-options .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  color: #111;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px var(gray);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+}
+.profile-picture-background {
+  height: 90%;
+  width: 92%;
+  background-image: url(./images/me.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile-picture-background:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+.colz .colz-icon i {
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding: 8px;
+  padding-left: 0px;
+}
+.colz .colz-icon:hover {
+  transform: scale(1.5);
 }
 
 .navigation-links {
@@ -66,58 +138,13 @@ p {
   margin-top: 40px;
   justify-content: center;
 }
-
+a {
+  text-decoration: none;
+}
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-.primary-link {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background-color: var(--primary-color);
-  color: white;
 }
