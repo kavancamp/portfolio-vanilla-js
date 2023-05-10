@@ -176,4 +176,7 @@ body {
   .colz-icon {
     padding-top: 20px;
   }
+  .project-description {
+    padding: 5px 5px;
+  }
 }
