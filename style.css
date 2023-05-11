@@ -213,11 +213,14 @@ body {
     padding-top: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 500px) {
   .content-to-hide {
     display: none;
   }
   .profile-picture-background {
-    padding-right: 40px;
+    width: 300px;
+  }
+  .profile-picture {
+    padding-right: 100px;
   }
 }
