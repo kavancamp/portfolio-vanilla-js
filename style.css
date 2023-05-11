@@ -63,13 +63,12 @@ body {
 .profile-options .primary-btn:hover {
   border-color: rgb(205, 122, 0);
 }
-.profile-options .highlighted-btn {
+
+.highlighted-btn {
   background-color: rgb(205, 122, 0);
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
-
-  text-transform: capitalize;
+  padding: 20px 20px;
   color: white;
 }
 .profile-options .highlighted-btn:hover {
