@@ -213,4 +213,7 @@ body {
   .content-to-hide {
     display: none;
   }
+  .profile-picture-background {
+    align-self: center;
+  }
 }
