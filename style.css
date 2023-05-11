@@ -223,4 +223,7 @@ body {
   .profile-picture {
     padding-right: 100px;
   }
+  h3.skill-name {
+    font-size: 10px;
+  }
 }
